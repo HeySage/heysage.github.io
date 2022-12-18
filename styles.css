@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+.featured-photos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.featured-photos img {
+  width: 300px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s;
+}
+
+.featured-photos img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#upload-form input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #666;
+  transition: all 0.2s;
+}
+
+#upload-form input[type="file"]:hover {
+  border-color: #333;
+  color: #333;
+}
+
+#upload-form input[type="submit"] {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#upload-form input[type="submit"]:hover {
+  background-color: #444;
+}
